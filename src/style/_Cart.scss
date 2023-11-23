@@ -1,0 +1,82 @@
+//Estilos carrito
+//Carrito sin productos
+.empty-cart {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    padding: 30px;
+    p {
+        margin-top: 0;
+    }
+}
+
+.empty-text-cart {
+    margin: 20px 0px;
+    font-size: 1rem;
+    font-family: $font-text;
+    p {
+        margin: 20px;
+    }
+}
+
+.btn_cart {
+    margin: auto;
+    width: 20%;
+}
+
+//Carrito con productos
+.list-cart {
+    height: 100vh;
+    margin: 30px;
+}
+
+.btn-cart {
+    display: flex;
+    justify-content: center;
+}
+.btn_cart_end {
+    margin-left: 12px;
+}
+
+.price-cart {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: rgba(168, 150, 150, 0.125);
+}
+
+//Items del carrito
+.card-body {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid rgb(211, 211, 211);
+    border-style: solid none solid none;
+    img {
+        width: 10%;
+        margin: 20px;
+    }
+}
+
+.info-cart {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    div {   
+        margin: 40px;
+    }
+}
+
+.card-text {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}

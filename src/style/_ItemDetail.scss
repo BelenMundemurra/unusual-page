@@ -1,0 +1,95 @@
+//Detalle del producto
+.card-detail {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: start;
+    padding: 2%;
+
+    
+    
+    img {
+        width: 30%;
+        height: fit-content;
+        padding: 0px 20px;
+        box-shadow: -2px 1px 29px 6px rgba(0, 0, 0, 0.137);
+        margin: 20px;
+    } 
+    
+    div {
+        margin: 20px;
+        color: black;
+        p {
+            margin: 0;
+            font-family: $font-text;
+        }
+    }
+
+    .btn-detail {
+        margin: 0;
+        width: 100%;
+        div {
+            margin: 0;
+        }
+    }
+
+    .card-count {
+        margin: 0;
+        width: 100%;
+
+        .stock-text {
+            margin-top: 20px;
+        }
+
+        div {
+            width: fit-content;
+            margin-bottom: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+            text-transform: uppercase;
+            p {
+                padding-right: 10px;
+            }
+        }
+    }
+}
+
+.btn_tran {
+    margin-top: 20px;
+}
+.card-detail-price {
+    font-size: 1.3rem;
+}
+
+//Item Count
+.stock-text {
+    font-size: 1rem;
+}
+
+.container-count {
+    margin: 0px 0px 10px 0px;
+    border: 1px solid black;
+    text-align: center;
+    width: fit-content;
+}
+
+.btn-count {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    width: 20px;
+}
+
+.btn-count-num {
+    padding: 0px 25px;
+    border: none;
+    border-right: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    width: 60px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+

@@ -1,0 +1,75 @@
+.checkout-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 2em;
+    height: 90vh;
+    h4 {
+        text-align: center;
+    }
+    p {
+        font-family: $font-text;
+        text-align: center;
+    }
+
+}
+
+.checkout-complete {
+    width: 50%;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.104);
+    padding: 1em;
+    h4 {
+        font-size: 1.2rem;
+    }
+}
+.form_checkout {
+    display: block;
+}
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    label {
+        margin: 0.4em;
+    }
+}
+
+.checkout-success {
+    border: 1px solid rgb(184, 184, 184);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p {
+        margin: 20px;
+        font-weight: bold;
+    }
+}
+
+.btn-form {
+    text-align: center;
+    display: block;
+	padding: 0.5em;
+	width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0.5em 1em;
+}
+
+.cancel-form {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-container-form {
+    text-align: center;
+
+    a {
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: black;
+    }
+
+}
