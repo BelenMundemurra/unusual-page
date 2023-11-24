@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import {HashRouter,Routes,Route} from 'react-router-dom'
 import '../style/styles.css';
 import NavbarComp from "./Navbar";
 import ItemListContainer from './ItemContainerComponents/ItemListContainer';
@@ -13,20 +13,20 @@ import Footer from './Footer';
 const App = () => {
     return (
         <>
-            <BrowserRouter>
+            <HashRouter>
                 <CartProvider>
                     <NavbarComp/>
                     <Routes>
-                        <Route path='/unusual-page/' element={<Home/>} />
+                        <Route path='/unusual-page' element={<Home/>} />
                         <Route path='/category/shop' element={<ItemListContainer/>} />
                         <Route path='/item/:id' element={<ItemDetailContainer/>} />
                         <Route path='/cart' element={<Cart/>} />
                         <Route path='/checkout' element={<Checkout/>} />
-                        <Route path='*' element={<Home/>} />
+                        <Route path='*' element={<Home/>}/>
                     </Routes>
                 </CartProvider>
                 <Footer/>
-            </BrowserRouter>
+            </HashRouter>
         </>
     );
 }
