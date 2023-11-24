@@ -17,7 +17,7 @@ const App = () => {
                 <CartProvider>
                     <NavbarComp/>
                     <Routes>
-                        <Route path='/unusual-page' element={<Home/>} />
+                        <Route path='/unusual-page/' element={<Home/>} />
                         <Route path='/category/shop' element={<ItemListContainer/>} />
                         <Route path='/item/:id' element={<ItemDetailContainer/>} />
                         <Route path='/cart' element={<Cart/>} />
