@@ -17,12 +17,12 @@ const App = () => {
                 <CartProvider>
                     <NavbarComp/>
                     <Routes>
-                        <Route path='/' element={<Home/>} />
+                        <Route path='/unusual-page' element={<Home/>} />
                         <Route path='/category/shop' element={<ItemListContainer/>} />
                         <Route path='/item/:id' element={<ItemDetailContainer/>} />
                         <Route path='/cart' element={<Cart/>} />
                         <Route path='/checkout' element={<Checkout/>} />
-                        <Route path='*' element={<Error404/>} />
+                        <Route path='*' element={<Home/>} />
                     </Routes>
                 </CartProvider>
                 <Footer/>
