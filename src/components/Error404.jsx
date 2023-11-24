@@ -5,7 +5,7 @@ const Error404 = () => {
         <>
             <section className='title-section container-fluid'>
                 <h2>ERROR</h2>
-                <p>Page Not Found </p>
+                <p>Page Not Found</p>
             </section>
         </>
     );
