@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/unusual-page/static/css/main.ecccdff6.css",
+    "main.js": "/unusual-page/static/js/main.f59f9ed5.js",
+    "index.html": "/unusual-page/index.html",
+    "main.ecccdff6.css.map": "/unusual-page/static/css/main.ecccdff6.css.map",
+    "main.f59f9ed5.js.map": "/unusual-page/static/js/main.f59f9ed5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecccdff6.css",
+    "static/js/main.f59f9ed5.js"
+  ]
+}
