@@ -22,8 +22,6 @@
   },
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-page -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
