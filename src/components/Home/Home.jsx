@@ -9,7 +9,7 @@ const Home = () => {
                 <Carousel fade>
                     <Carousel.Item>
                         <img
-                        className="d-block w-100 carousel-img"
+                        className="d-block carousel-img"
                         src="https://firebasestorage.googleapis.com/v0/b/ecommerce-react---coderhouse.appspot.com/o/home.png?alt=media&token=88b12b04-2354-422c-9d9d-21040399d16e"
                         alt="First slide"/>
                         <Carousel.Caption>
@@ -20,7 +20,7 @@ const Home = () => {
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                        className="d-block w-100 carousel-img carousel-img-second"
+                        className="d-block carousel-img carousel-img-second"
                         src="https://dbknews.s3.amazonaws.com/uploads/2019/09/skims2-e1567643295802.jpeg"
                         alt="Second slide"
                         />
